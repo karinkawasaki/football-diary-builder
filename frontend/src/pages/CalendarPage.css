@@ -1,0 +1,55 @@
+.calendar-container {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.add-btn {
+  background: #9c2f3f;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.calendar-card {
+  background: white;
+  border-radius: 16px;
+  padding: 32px 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  width: fit-content;
+  margin: 0 auto 32px;
+}
+
+/* 日付の数字の色を黒に戻す */
+.react-calendar__month-view__days__day {
+  color: #222 !important;
+}
+
+/* 他月の日付を淡く */
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #aaa !important;
+}
+
+/* 日記がある日に⚽️っぽい丸を表示 */
+.mood-dot {
+  width: 8px;
+  height: 8px;
+  background: #9c2f3f;
+  border-radius: 50%;
+  margin: 4px auto 0;
+}
+
+/* hover時にうっすら */
+.react-calendar__tile:hover {
+  background: #f8e9ec !important;
+}

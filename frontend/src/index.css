@@ -1,0 +1,210 @@
+/* ---------------------------------------------------
+   GLOBAL RESET
+--------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "Noto Sans JP", sans-serif;
+  background: #fafafa;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ---------------------------------------------------
+   LINKS
+--------------------------------------------------- */
+a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  opacity: 0.8;
+}
+
+/* ---------------------------------------------------
+   BUTTONS (Arsenal Red)
+--------------------------------------------------- */
+button,
+.save-btn {
+  background: #9C2F3F !important;
+  color: white !important;
+  border: none !important;
+  padding: 12px 18px !important;
+  border-radius: 10px !important;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+  transition: 0.15s ease !important;
+  font-size: 15px !important;
+}
+button:hover,
+.save-btn:hover {
+  background: #B63A42 !important;
+  transform: translateY(-2px) !important;
+}
+
+/* ---------------------------------------------------
+   NAVBAR (Arsenal Header)
+--------------------------------------------------- */
+.navbar {
+  background: #9C2F3F;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 28px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.navbar a:hover {
+  opacity: 0.85;
+}
+
+/* ---------------------------------------------------
+   PAGE CONTAINER
+--------------------------------------------------- */
+.page-container {
+  max-width: 760px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+/* ---------------------------------------------------
+   DIARY FORM CARD
+--------------------------------------------------- */
+.diary-form {
+  background: white;
+  padding: 28px;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  margin-top: 20px;
+}
+.diary-form h3 {
+  color: #9C2F3F !important;
+  font-weight: 700 !important;
+  margin-bottom: 16px !important;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+.form-row label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+.form-row select,
+.form-row input {
+  padding: 10px;
+  border: 1px solid #d8c2c7;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.form-row select:focus,
+.form-row input:focus {
+  border-color: #9C2F3F;
+  box-shadow: 0 0 6px rgba(156,47,63,0.35);
+}
+
+/* ---------------------------------------------------
+   CALENDAR (Arsenal theme)
+--------------------------------------------------- */
+.react-calendar {
+  border: none;
+  font-family: Poppins, sans-serif;
+  background: white;
+  border-radius: 16px;
+  padding: 20px 10px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+/* 曜日 */
+.react-calendar__month-view__weekdays abbr {
+  text-decoration: none;
+  color: #9C2F3F;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* 月移動ボタン */
+.react-calendar__navigation button {
+  background: transparent !important;
+  color: #9C2F3F !important;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 6px 10px;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background: #F6EDEE !important;
+}
+
+
+/* 🔥 カレンダーの日付タイルをデフォルト白に戻す */
+.react-calendar__tile {
+  background: white !important;
+  padding: 10px 0 !important;
+  border-radius: 8px !important;
+  color: #222 !important;
+  font-weight: 500;
+  transition: 0.15s ease;
+}
+
+/* ホバー */
+.react-calendar__tile:hover {
+  background: #F6ECEE !important;
+}
+
+/* ✅ 選択された日だけ赤にする */
+.react-calendar__tile--active {
+  background: #d08691 !important;
+  color: white !important;
+}
+
+/* mood indicator dot */
+.mood-dot {
+  width: 6px;
+  height: 6px;
+  background: #9C2F3F;
+  border-radius: 50%;
+  margin: 3px auto 0;
+}
+
+/* ---------------------------------------------------
+   DIARY LIST CARDS
+--------------------------------------------------- */
+.diary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.diary-card {
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  padding: 16px;
+  transition: 0.15s ease;
+}
+.diary-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.14);
+}
+.diary-card .date {
+  font-size: 14px;
+  font-weight: 700;
+  color: #9C2F3F;
+}
