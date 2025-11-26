@@ -1,4 +1,4 @@
-[football_diary.sql](https://github.com/user-attachments/files/23776104/football_diary.sql)[football_diary.sql](https://github.com/user-attachments/files/23776095/football_diary.sql)
+[football_diary.sql](https://github.com/user-attachments/files/23776104/football_diary.sql)
 # ⚽ Football Diary Builder
 
 サッカーの練習・試合の振り返りを、  
