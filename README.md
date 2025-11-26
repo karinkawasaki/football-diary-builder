@@ -99,15 +99,6 @@ This app helps football players:
 <img width="1461" height="703" alt="Screenshot 2025-11-26 at 17 27 33" src="https://github.com/user-attachments/assets/5d6ec2c6-cff3-4f13-9f76-d90af7212a6f" />
 <img width="1468" height="711" alt="Screenshot 2025-11-26 at 17 27 41" src="https://github.com/user-attachments/assets/fc9e7ae2-b5cc-49c1-9c05-d85a49353d30" />
   
-
----
-
-## 🚀 ローカルでの起動方法 / How to Run Locally
-
-```bash
-npm install
-npm run dev
-
 ---
 
 ## 備考 / Notes
@@ -122,3 +113,13 @@ npm run dev
 を楽しく続けられるように設計しています。
 
 日々の成長を、言葉とデータの両方で記録しましょう。
+
+---
+
+## 🚀 ローカルでの起動方法 / How to Run Locally
+
+```bash
+npm install
+npm run dev
+
+
